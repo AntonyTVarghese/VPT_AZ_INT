@@ -1,1 +1,18 @@
 TEST 
+
+//SNOW deployment for, ocs-Phase 2, RITM0016208 - https://vptdev.service-now.com/sc_req_item.do?sys_id=740e49211bdcb9906f7976ae034bcb04
+
+- name: sub_type
+  value: {cust} 
+- name: tla
+  value: {Viewpointe} 
+- name: deployment_env
+  value: {prod} 
+- name: vpt_competency
+  value: {AIX Support L2} 
+- name: solutionsuite
+  value: {ocs} 
+- name: size
+  value: {Large} 
+- name: cleanup
+  value: false
