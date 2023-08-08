@@ -1,1 +1,18 @@
 TEST 
+
+//SNOW deployment for, cg3-Phase 2, RITM0016253 - https://vptdev.service-now.com/sc_req_item.do?sys_id=420266d51bacf1106f7976ae034bcb10
+
+- name: sub_type
+  value: core
+- name: tla
+  value: Viewpointe
+- name: deployment_env
+  value: prod
+- name: vpt_competency
+  value: CheckWorks Deployment
+- name: solutionsuite
+  value: cg3
+- name: size
+  value: Medium
+- name: cleanup
+  value: false
