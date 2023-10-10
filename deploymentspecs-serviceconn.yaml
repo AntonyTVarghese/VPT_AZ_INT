@@ -1,1 +1,10 @@
 TEST 1
+
+# SNOW deployment for, ocs-Phase 1, RITM0017257 - https://vptdev.service-now.com/sc_req_item.do?sys_id=e8a47f2ddbf535505b98496d139619e3
+
+- name: tenant
+  value: 'cts'
+- name: subscriptionId
+  value: 'aeba7e2f-bbfc-43d1-b64c-5018f7dfedd8'
+- name: adoServiceConnectionName
+  value: '$(subscriptionName)_devops_connection_managedid'
