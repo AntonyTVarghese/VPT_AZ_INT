@@ -1,1 +1,18 @@
 TEST 
+
+# SNOW deployment for, ocs-Phase 1, RITM0017882 - https://vptdev.service-now.com/sc_req_item.do?sys_id=eb7f7e4adb7fbd505b98496d139619de
+
+- name: sub_type
+  value: 'cust'
+- name: tla
+  value: 'cbs'
+- name: deployment_env
+  value: 'cts'
+- name: vpt_competency
+  value: ''
+- name: solutionsuite
+  value: 'ocs'
+- name: size
+  value: 'Medium'
+- name: cleanup
+  value: 'false'
