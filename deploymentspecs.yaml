@@ -1,1 +1,18 @@
 TEST 
+
+# SNOW deployment for, cg3-Phase 2, RITM0017888 - https://vptdev.service-now.com/sc_req_item.do?sys_id=de63a39edb3731105b98496d139619b6
+
+- name: sub_type
+  value: 'cust'
+- name: tla
+  value: 'bxs'
+- name: deployment_env
+  value: 'cts'
+- name: vpt_competency
+  value: ''
+- name: solutionsuite
+  value: 'cg3'
+- name: size
+  value: 'Medium'
+- name: cleanup
+  value: 'false'
