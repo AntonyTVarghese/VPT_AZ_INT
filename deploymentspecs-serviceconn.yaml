@@ -1,1 +1,10 @@
 TEST 1
+
+# SNOW deployment for, cg3-Phase 2, RITM0017893 - https://vptdev.service-now.com/sc_req_item.do?sys_id=d260870fdb3375105b98496d139619a9
+
+- name: tenant
+  value: 'cts'
+- name: subscriptionId
+  value: '810c2965-a433-49a8-8ec5-2ef0f8b88e2c'
+- name: adoServiceConnectionName
+  value: '$(subscriptionName)_devops_connection_managedid'
