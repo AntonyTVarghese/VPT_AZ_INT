@@ -1,1 +1,10 @@
 TEST 1
+
+# SNOW deployment for, nss-Phase 2, RITM0017898 - https://vptdev.service-now.com/sc_req_item.do?sys_id=c61cb42bdb7bf5105b98496d13961997
+
+- name: tenant
+  value: 'prod'
+- name: subscriptionId
+  value: '981b6238-8ace-4dfa-bb2f-671305d8ce6e'
+- name: adoServiceConnectionName
+  value: '$(subscriptionName)_devops_connection_managedid'
