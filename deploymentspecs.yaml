@@ -1,1 +1,18 @@
 TEST 
+
+# SNOW deployment for, nss-Phase 2, RITM0017907 - https://vptdev.service-now.com/sc_req_item.do?sys_id=ef22607bdb7379105b98496d139619f2
+
+- name: sub_type
+  value: 'cust'
+- name: tla
+  value: 'bxs'
+- name: deployment_env
+  value: 'prod'
+- name: vpt_competency
+  value: ''
+- name: solutionsuite
+  value: 'nss'
+- name: size
+  value: 'Small'
+- name: cleanup
+  value: 'false'
